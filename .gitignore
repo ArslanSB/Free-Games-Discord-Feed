@@ -1,0 +1,17 @@
+# Local-only docs (specs, design notes)
+docs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://feed.eikowagenknecht.com/lootscraper/</id>
+  <title>Free Games and Loot</title>
+  <updated>2026-05-10T12:00:23.000Z</updated>
+  <author><name>LootScraper</name></author>
+  <link href="https://feed.eikowagenknecht.com/lootscraper.xml" rel="self"/>
+  <entry>
+    <id>https://feed.eikowagenknecht.com/lootscraper/10001</id>
+    <title>Epic Games (Game) - Hollow Knight</title>
+    <updated>2026-05-10T10:00:00.000Z</updated>
+    <published>2026-05-10T10:00:00.000Z</published>
+    <link href="https://store.epicgames.com/p/hollow-knight"/>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><img src="https://example.com/hk.jpg"/><ul><li><b>Offer valid from:</b> 2026-05-10 10:00</li><li><b>Offer valid to:</b> 2026-05-17 10:00</li><p>About the game (<b>Hollow Knight</b>):</p><ul><li><b>Description:</b> A challenging 2D action-adventure with hand-drawn art and a haunting soundtrack. Explore twisting caverns, ancient cities and deadly wastes.</li></ul></ul></div></content>
+    <published>2026-05-10T10:00:00.000Z</published>
+  </entry>
+  <entry>
+    <id>https://feed.eikowagenknecht.com/lootscraper/10002</id>
+    <title>Amazon Prime (Loot) - Fortnite Skin Pack</title>
+    <updated>2026-05-09T12:00:00.000Z</updated>
+    <published>2026-05-09T12:00:00.000Z</published>
+    <link href="https://gaming.amazon.com/loot/fortnite-skin"/>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>A free skin for Fortnite via Prime Gaming.</p></div></content>
+  </entry>
+  <entry>
+    <id>https://feed.eikowagenknecht.com/lootscraper/10003</id>
+    <title>GOG (Game) - Some Old Game</title>
+    <updated>2026-05-08T08:00:00.000Z</updated>
+    <published>2026-05-08T08:00:00.000Z</published>
+    <link href="https://gog.com/game/some-old-game"/>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>An older title now available for free.</p></div></content>
+  </entry>
+  <entry>
+    <id>https://feed.eikowagenknecht.com/lootscraper/10004</id>
+    <title>Malformed entry without the expected pattern</title>
+    <updated>2026-05-07T08:00:00.000Z</updated>
+    <published>2026-05-07T08:00:00.000Z</published>
+    <link href="https://example.com/malformed"/>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>This title doesn't match our regex.</p></div></content>
+  </entry>
+</feed>

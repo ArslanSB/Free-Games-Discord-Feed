@@ -1,0 +1,39 @@
+[project]
+name = "epic-bundle-discord-bot"
+version = "0.1.0"
+description = "Posts new free PC games from the LootScraper feed to a Discord channel."
+requires-python = ">=3.12"
+dependencies = [
+    "feedparser==6.0.11",
+    "httpx==0.28.1",
+    "supabase==2.30.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==8.3.3",
+    "respx==0.23.1",
+    "ruff==0.7.4",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "PL"]
+ignore = [
+    "PLR0913",  # too-many-arguments — fine for this small codebase
+    "PLR0912",  # too-many-branches — run_once is intentionally one function
+    "PLR0915",  # too-many-statements — run_once is intentionally one function
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/test_main.py" = ["E501"]  # XML fixture strings exceed line limit
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
